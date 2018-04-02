@@ -11,4 +11,4 @@ Since the Bigram tag model has many null values, Laplace Smoothing is implemente
  
 To deal with the unknown words, basic morphological analysis is used. Furthermore, If the word did not fit into any of the tags assigned present in morphological analysis,  it is given an probability equal to the minimum probability equal to minimum values of all the values in the transition probability matrix and is assigned the corresponding tag. 
  
-A Viterbi decoder is implemented using the algorithm and is tested on the training set. The training set is divided 80-20 ratio and Viterbi algorithm is trained using 80% data and tested on 20% data(unseen).  It will work fairly well on unseen data. Accuracy obtained in this case is around 91%.
+A Viterbi decoder is implemented using the algorithm and is tested on the training set. The training set is divided 80-20 ratio and Viterbi algorithm is trained using 80% data and tested on 20% data(unseen).  It will work fairly well on unseen data. Accuracy obtained in this case is 91%.
